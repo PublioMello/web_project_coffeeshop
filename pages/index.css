@@ -115,26 +115,22 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  display: flex;
+  justify-content: space-between;
 }
 
-.horarios {
+.header__footer_horarios {
   position: absolute;
   bottom: 40px;
-  left: 80px;
-  padding: 0;
-  margin: 0;
+  left: 80px
 }
 
-.horarios p {
-  margin: 0;
-}
-
-.endereco {
-  margin: 0;
+.header__footer_endereco {
   position: absolute;
   bottom: 40px;
-  right: 80px;
+  right: 80px
 }
+
 
 /* Inicio da section Recipes */
 
@@ -182,7 +178,7 @@
   padding-bottom: 215px;
 }
 
-.recipes__videos__item {
+.recipes__videos_item {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -194,13 +190,13 @@
 
 }
 
-.video__caption {
+.recipes__videos_caption {
   display: flex;
   justify-content: space-between;
 
 }
 
-.video__caption p {
+.recipes__videos_caption p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
