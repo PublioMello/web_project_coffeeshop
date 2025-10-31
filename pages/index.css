@@ -190,3 +190,97 @@
   font-size: 20px;
   line-height: 30px;
 }
+
+/* Secao reservation */
+.reservation {
+  background-image: url('/images/background_reservation.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #D9E7FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.reservation__title {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+
+
+.reservation__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+}
+
+.reservation__form-label {
+  padding-bottom: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__form-field {
+  border-radius: 4px;
+  margin-bottom: 32px;
+  height: 60px;
+  padding: 15px 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.reservation__form-field::placeholder {
+  color: #838383;
+}
+
+.reservation__form-botao {
+  border-radius: 4px;
+  opacity: 1;
+  height: 60px;
+  max-width: 385px;
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+
+}
+
+.reservation__form-botao:hover {
+  opacity: 0.7;
+}
+
+.reservation__form-checkbox {
+  border-radius: 2px;
+}
+
+.reservation__form-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 120px;
+
+}
+
+.reservation__form-checkbox input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
