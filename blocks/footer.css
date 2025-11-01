@@ -29,6 +29,8 @@
 }
 
 .footer__list {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   list-style: none;
@@ -36,6 +38,8 @@
 }
 
 .footer__social-heading {
+  padding: 0;
+  margin: 0;
   padding-bottom: 20px;
   font-family: "Inter";
   font-style: normal;
@@ -46,9 +50,13 @@
 }
 
 .footer__list-item {
+  margin: 0;
   list-style: none;
   display: flex;
   gap: 10px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer__social-icon {
