@@ -66,11 +66,19 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+  /* padding: 0 80px 40px; */
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 80px 40px;
   margin-top: auto;
-
   width: 100%;
+}
+
+.header__footer-horarios {
+  margin: auto 80px 40px;
+}
+
+.header__paragraph-horario {
+  margin-right: 80px;
+  margin-bottom: 40px;
 }
